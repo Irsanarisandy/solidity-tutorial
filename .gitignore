@@ -7,6 +7,7 @@
 
 # testing
 /coverage
+coverage.json
 
 # next.js
 /.next/
@@ -26,6 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -33,3 +35,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+typechain
+typechain-types
+
+# Hardhat files
+artifacts
+cache

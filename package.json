@@ -9,14 +9,22 @@
     "lint": "next lint",
     "lint-fix": "next lint --fix",
     "stylelint": "stylelint \"**/*.{css,sass,scss}\"",
-    "stylelint-fix": "stylelint \"**/*.{css,sass,scss}\" --fix"
+    "stylelint-fix": "stylelint \"**/*.{css,sass,scss}\" --fix",
+    "hardhat": "hardhat",
+    "hardhat-clean": "hardhat clean",
+    "hardhat-compile": "hardhat compile",
+    "hardhat-test": "hardhat test",
+    "hardhat-node": "hardhat node"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "ethers": "^5.7.2",
     "next": "^13.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@types/node": "^20.2.3",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
@@ -24,6 +32,7 @@
     "eslint": "^8.41.0",
     "eslint-config-next": "^13.4.3",
     "eslint-config-prettier": "^8.8.0",
+    "hardhat": "^2.14.0",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "sass": "^1.62.1",
